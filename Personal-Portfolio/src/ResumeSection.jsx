@@ -10,8 +10,8 @@ function ResumeSection () {
           Collaborated with clients to meet project goals, maintain visual consistency, and deliver content aligned with their creative vision.
           Managed the entire production process — from planning and shooting to post-production — ensuring timely and professional results. </p>
       <p className='resume-p'>Click the button below to download my resume.</p>
-      <a
-        href="Rolando Majait RESUME." // Replace with your resume file path
+       <a
+         href={`${import.meta.env.BASE_URL}Rolando_Majait_Resume.pdf`} 
         download="Rolando_Majait_Resume.pdf"
         style={{
           padding: '10px 20px',
