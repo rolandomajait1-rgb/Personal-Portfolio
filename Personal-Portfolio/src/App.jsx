@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import './tooplate-stellaris-style.css';
 import Slider from './Slider.jsx';
 import ResumeSection from "./ResumeSection";
+import PDF from "../public/Rolando_Majait_Resume.pdf";
 
 export default function App() {
   const canvasRef = useRef(null);
