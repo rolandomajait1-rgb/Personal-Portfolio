@@ -1,4 +1,5 @@
 import React from 'react';
+import { PDFDownloadLink } from '@react-pdf/renderer';
 import './tooplate-stellaris-style.css';
 function ResumeSection () {
   return (
@@ -10,7 +11,7 @@ function ResumeSection () {
           Managed the entire production process — from planning and shooting to post-production — ensuring timely and professional results. </p>
       <p className='resume-p'>Click the button below to download my resume.</p>
       <a
-        href="/Rolando%20Majait%20RESUME.pdf" // Replace with your resume file path
+        href="Rolando Majait RESUME." // Replace with your resume file path
         download="Rolando_Majait_Resume.pdf"
         style={{
           padding: '10px 20px',
